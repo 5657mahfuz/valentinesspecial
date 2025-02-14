@@ -30,7 +30,7 @@ function App() {
     <div style={{ ...styles.container, ...(showLove ? styles.loveTheme : {}) }}>
       {/* Love Emoji Watermark */}
       <div style={styles.emojiWatermark}>❤️</div>
-      <h1 style={showLove ? styles.hidden : styles.title}>💖 Will You Be My Valentine ? 💖</h1>
+      <h1 style={showLove ? styles.hidden : styles.title}>💖 Will You Be My Valentine Raisha? 💖</h1>
 
       {!showLove && (
         <div style={styles.buttonContainer}>
