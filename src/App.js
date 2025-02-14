@@ -30,7 +30,7 @@ function App() {
     <div style={{ ...styles.container, ...(showLove ? styles.loveTheme : {}) }}>
       {/* Love Emoji Watermark */}
       <div style={styles.emojiWatermark}>❤️</div>
-      <h1 style={showLove ? styles.hidden : styles.title}>💖 Will You Be My Valentine Raisha? 💖</h1>
+      <h1 style={showLove ? styles.hidden : styles.title}>💖 Will You Be My Valentine ? 💖</h1>
 
       {!showLove && (
         <div style={styles.buttonContainer}>
@@ -52,7 +52,9 @@ function App() {
       {showLove && (
         <div style={styles.loveMessage}>
           <h1 style={styles.loveMessageText}>❤️ Yay! Love Wins! ❤️</h1>
-          <p style={styles.loveText}>You are the most special person in my life Nafisha! 💕</p>
+          <p style={styles.loveText}>On this special day, I just want to remind you of how much you mean to me. You are the light in my life, the smile that brightens my darkest days, and the love that fills my heart. Every moment spent with you is a treasure, and I cherish every second of it.
+
+Thank you for being my best friend, my confidant, and the love of my life. You make every day feel like Valentine’s Day 💕</p>
           <div style={styles.heartContainer}>
             {"❤️".repeat(100)}
           </div>
